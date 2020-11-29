@@ -13,3 +13,6 @@
  ubuntu
  ## Support and contact details
  incase  you need support please reach out to us
+ ### License
+* MIT
+Copyright (c) 2020
