@@ -7,4 +7,7 @@
  python3.6
  flask
  ubuntu
- 
+ ## Technologies Used
+ python3.6
+ flask
+ ubuntu
