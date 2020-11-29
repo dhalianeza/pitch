@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as macro %}
+
+{%block styles%}
+    {{ super() }}
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Vidaloka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+{%endblock%}
+
+
+{%block content%}
+
+<div id="one" style="margin-bottom:5%;font-family:fantasy;background-color: blue;font-weight:bolder" >
+    <h1> Welcome to Pitch app!</h1>
+</div>
+
+
+<div class="container " style="font-family: 'Cormorant Upright', serif;">
+  <h3 class="text-center" style="text-decoration:underline;font-family:cursive sans-serif">1-min-pitch</h3>
+    <div class="row">
+        <div class="col-md-4">
+            
+                <h3 class= "text-pimary">Economic Pitches</h3>
+                <p>get to know about macro economy</p>
+                <a href="{{url_for('main.business_pitches')}}" class="btn btn-danger -center">more pitches</a>
+            <br>
+
+                
+
+                <h3 class="text-pimary">Interview Pitches</h3>
+                <p>That some question in interview.</p>
+                <a href="{{url_for('main.promotion_pitches')}}" class="btn btn-danger -center">more pitches</a>
+            <br>
+                
+                <h3>Product Pitches</h3> 
+                <p>  here some product pitches will help you to push your business</p>
+                <a href="{{url_for('main.product_pitches')}}" class="btn btn-danger -center">more pitches</a>
+            
+        </div>
+        <div col-md-7>
+            <div class="container text-center" style="padding-bottom: 20px;margin-left:80%;margin-top: 80%;">
+                <a href="{{url_for('main.new_pitch')}}" class="btn btn-danger">Write pitch</a>
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock%}

@@ -1,0 +1,67 @@
+
+body{
+   
+background-color:blue;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+img {
+  width:150px;
+
+  height: 100px;
+}
+#one {
+  
+  background-color: rgba(0,0,0,0.6);
+  font-family: fantasy;
+}
+.title {
+  color: blueviolet;
+}
+.panel{
+    color:red;
+    opacity: 0.8;
+}
+h1 {
+    text-align: center;
+}
+#nav{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    background-color: black;
+}
+.navbar{
+    padding: 10px 0;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 35px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+ 
+.navbar-dark .navbar-brand{
+    color: #dcdde1;
+}
+.nav-link{
+    font-weight: bolder;
+    padding-left: 20px;
+    font-size: 25px;
+    color: white;
+
+}
+.nav-link:hover{
+    color:black;
+    border-radius: 1px;
+}
+.active a{
+  color:black;
+}
+.active a:hover{
+    color:black;
+}
