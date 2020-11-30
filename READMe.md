@@ -12,7 +12,7 @@
  ## Technologies Used
  python3.6
  flask
- 
+ Database
  ## Support and contact details
  incase  you need support please reach out to us
  ### License
