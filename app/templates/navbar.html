@@ -10,9 +10,9 @@
                     <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"> categories <span
                                 class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a class="nav-link" href="{{url_for('main.business_pitches')}}">Economic pitches</a></li>
+                            <li><a class="nav-link" href="{{url_for('main.economic_pitches')}}">Economic pitches</a></li>
                             <li><a class="nav-link" href="{{url_for('main.product_pitches')}}">Product pitches</a></li>
-                            <li><a class="nav-link" href="{{url_for('main.promotion_pitches')}}">Interview pitches</a></li>
+                            <li><a class="nav-link" href="{{url_for('main.interview_pitches')}}">Interview pitches</a></li>
                         </ul>
                     </li>
                     {% if current_user.is_authenticated %}
