@@ -76,7 +76,7 @@ def new_pitch():
 
 
 @main.route('/pitches/economic_pitches')
-def business_pitches():
+def economic_pitches():
 
     pitches = Pitch.get_pitches('economic')
 
@@ -84,7 +84,7 @@ def business_pitches():
 
 
 @main.route('/pitches/interview_pitches')
-def promotion_pitches():
+def interview_pitches():
 
     pitches = Pitch.get_pitches('interview')
 
